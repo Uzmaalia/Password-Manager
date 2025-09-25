@@ -78,19 +78,19 @@ q → Quit the program
 
 If you want to upload this project to GitHub:
 
-# Initialize git (if not already done)
+## Initialize git (if not already done)
 git init
 
-# Add all files
+## Add all files
 git add .
 
-# Commit changes
+## Commit changes
 git commit -m "Password Manager project with README"
 
-# Add remote repo (replace URL with your own repo link)
+## Add remote repo (replace URL with your own repo link)
 git remote add origin https://github.com/Uzmaalia/Password-Manager.git
 
-# Push to GitHub
+## Push to GitHub
 git push -u origin master
 
 
