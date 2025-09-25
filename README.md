@@ -1,9 +1,9 @@
-# Password Manager 🔐
+# Password Manager 
 
 A simple command-line Password Manager built with Python using the cryptography.fernet library for secure password encryption and decryption.
 
 
-# Features ✨
+# Features 
 
 Generate and store a secure encryption key.
 
@@ -16,14 +16,14 @@ View and decrypt saved passwords.
 Simple menu-driven interface.
 
 
-# Project Structure 📂
+# Project Structure 
 password-manager/
 │── key.key             # Encryption key (auto-generated once)
 │── password_manager.py # Main program file
 │── passwords.txt       # Encrypted passwords storage
 
 
-# How It Works ⚙️
+# How It Works
 
 ## Key Handling
 
@@ -42,12 +42,12 @@ Password is encrypted and stored in passwords.txt.
 Stored passwords are decrypted and displayed securely in the terminal.
 
 
-# Example Output 📸
+# Example Output
 
 Here’s a screenshot of the project running in VS Code: <img width="683" height="120" alt="output" src="https://github.com/user-attachments/assets/cee96c76-34bd-40d3-8b11-f2b60fc71075" />
 
 
-# Requirements 📦
+# Requirements
 
 Python 3.8+
 
@@ -58,7 +58,7 @@ Install dependencies:
 pip install cryptography
 
 
-# Usage 🚀
+# Usage
 
 Run the program:
 
@@ -74,7 +74,7 @@ view → View saved passwords
 q → Quit the program
 
 
-# Git Setup & Push Instructions 🛠️
+# Git Setup & Push Instructions
 
 If you want to upload this project to GitHub:
 
@@ -94,7 +94,7 @@ git remote add origin https://github.com/Uzmaalia/Password-Manager.git
 git push -u origin master
 
 
-Security Note ⚠️
+# Security Note ⚠️
 
 Never upload your key.key or passwords.txt files to public repositories.
 
